@@ -14,8 +14,25 @@ Thw way that the captcha woks that it initally shows a variety of differnt types
 ### *Inital Captacha*
 ![inital_captcha](readme-assets/cap1.jpg)
 
-But once refreshed it subequntly follows the same captcha pattern of text filling 
+But once refreshed it subequntly follows the same captcha pattern of text filling for every refresh
 
 ### *Captacha pattern on reload*
 ![cap2](readme-assets/cap5.jpg) 
 ![cap2](readme-assets/cap4.jpg) 
+
+So this could easily be tackled by mkaing the script.js and adding a click event to the button so that the captacha automatically gets refreshed once it loads. 
+
+## Collecting Data to train the model
+Inially I attemped to use the MINST 0-9 digits and A-Z handwritten lettes data-set in order to train the model but that accuracy of those ended up being less than 70%.
+So I decided to make a comed data set of around 600 images from the MINST and arounf 600 from the captcha iself.
+Since each captcha had 4 letters/digits in them I used opencv to separate each letter into a image of 28x28 pixels (As to keep them the same size of the MIST dataset)
+
+## Building and Training the Model
+I made a classic Multi-layer Perceptron neural network and traind using the keras.tensorflow library it with the data the accuracy on this was suprisingly great.
+
+### *Accuracy : 96%*
+![tensorboard1](readme-assets/accuracy.jpg)
+
+### *Loss : 0.2*
+![tensorboard1](readme-assets/loss.jpg) 
+
