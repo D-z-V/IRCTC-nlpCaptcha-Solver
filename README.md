@@ -36,4 +36,11 @@ I made a classic Multi-layer Perceptron neural network and traind using the kera
 ### *Loss : 0.2*
 ![tensorboard1](readme-assets/loss.jpg) 
 
-## Converting the model and 
+## Converting the model to JavaSrcipt and building the app
+
+Now that the model has been saved, I converted it into JavaScript using tensorflow-converter. After that I built an app that can take the image and sparate them into letters using OpenCV.js and then predicting the results through the Model and print out the text in the console and an HTML element 
+
+### *App*
+![prediction1](readme-assets/app1.jpg) 
+![prediction1](readme-assets/app2.jpg) 
+
