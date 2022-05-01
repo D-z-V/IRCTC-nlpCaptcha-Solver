@@ -48,7 +48,7 @@ Now that the model has been saved, I converted it into JavaScript using tensorfl
 
 ## Building the Chrome extension
 
-The Chrome extention worked pretty well initally as I was testing out the auto-ckick of the refrest button to get the same captcha and then filling out the from with some random words, etc.
+The Chrome extention worked pretty well initally as I was testing out the auto-ckick for the refrest button and then auto-filling the from with some random words, etc. But when I tried to fetch the image from the captcha I started to run into some issues.
 
 ## Issues
 
