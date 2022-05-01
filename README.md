@@ -26,8 +26,12 @@ So this could easily be tackled by mkaing the script.js and adding a click event
 
 ## Collecting Data to train the model
 Initally I attemped to use the MINST 0-9 digits and A-Z handwritten lettes data-set in order to train the model but that accuracy of those ended up being less than 70%.
-So I decided to make a comed data set of around 600 images from the MINST and arounf 600 from the captcha iself.
-Since each captcha had 4 letters/digits in them I used opencv to separate each letter into a image of 28x28 pixels (As to keep them the same size of the MIST dataset).
+So I decided to make a combined data-set from the MINST and taking a few from the captcha iself.
+Since each captcha had 4 letters/digits in them I used opencv to separate each letter into a image of 28x28 pixels (As to keep them the same size of the MINST dataset).
+
+### *Data-Set used*
+![CAPTCHA DATA](5.jpg)
+![MINST DATA](51.jpg)
 
 ## Building and Training the Model
 I made a classic Multi-layer Perceptron neural network and traind using the keras.tensorflow library it with the data the accuracy on this was suprisingly great.
