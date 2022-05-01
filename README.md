@@ -58,5 +58,5 @@ I stared to run across this issue when I try to retrive the image from the <img>
 
 ![prediction1](readme-assets/err.jpg)
 
-After doing a bit of searching I found out the the server that my app had been requesting the image had CORS (Cross-origin-resource-sharing) resticted so I was not allowing my app to fetch the image from the source. I tried mutliple ways of solving this but sill haven't found a work-around for this issue. [MDN - Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
+After doing a some searching I found out the the server that my app had been requesting the image had CORS (Cross-origin-resource-sharing) resticted so I was not allowing my app to fetch the image from the source. I tried mutliple ways of solving this but sill haven't found a work-around for this issue. [MDN - Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
 
