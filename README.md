@@ -36,3 +36,4 @@ I made a classic Multi-layer Perceptron neural network and traind using the kera
 ### *Loss : 0.2*
 ![tensorboard1](readme-assets/loss.jpg) 
 
+## Converting the model and 
