@@ -18,4 +18,4 @@ But once refreshed it subequntly follows the same captcha pattern of text fillin
 
 ### *Captacha pattern on reload*
 ![cap2](readme-assets/cap2.jpg) 
-![cap2](readme-assets/cap3.jpg) 
+![cap2](readme-assets/cap4.jpg) 
