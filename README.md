@@ -14,7 +14,8 @@ Thw way that the captcha woks that it initally shows a variety of differnt types
 ### *Inital Captacha*
 ![inital_captcha](readme-assets/cap1.jpg)
 
-### *Captacha pattern on reload*
 But once refreshed it subequntly follows the same captcha pattern of text filling 
+
+### *Captacha pattern on reload*
 ![cap2](readme-assets/cap2.jpg) 
 ![cap2](readme-assets/cap3.jpg) 
