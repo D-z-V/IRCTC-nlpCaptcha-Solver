@@ -48,7 +48,7 @@ I made a classic Multi-layer Perceptron neural network and traind using the kera
 ### *Accuracy : 96%*
 ![tensorboard1](readme-assets/accuracy.jpg)
 
-### *Loss : 0.2*
+### *Loss : 0.05*
 ![tensorboard1](readme-assets/loss.jpg) 
 
 ## Converting the model to JavaSrcipt and building the app
