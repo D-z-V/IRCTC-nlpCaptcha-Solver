@@ -62,6 +62,6 @@ After doing a some searching I found out the the server that my app had been req
 
 ## Conclusion
 
-Given 90% of the work being done I still look to find a work-around this issue.
+Given 90% of the work being done I still look-forward to find a work-around this issue.
 
 Although not being able to reach the final intended goal I still had fun working on this project.
