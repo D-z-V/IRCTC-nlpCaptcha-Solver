@@ -19,7 +19,7 @@ Finding/Creating Dataset -> Data-Processing -> Building and Training Model -> Co
 * CSS
 
 ## Approach
-The IRCTC website has its captcha service outsourced to Simpli5d Technologies' nlpCaptcha.
+The IRCTC website has its captcha service outsourced to [Simpli5d Technologies](https://nlpcaptcha.in/en/index.html) nlpCaptcha.
 Thw way that the captcha woks that it initally shows a variety of differnt types of Captcha like text fill, image clicking ,etc.
 
 ### *Inital Captacha*
