@@ -1,7 +1,7 @@
 # IRCTC-nlpCaptcha-Solver
 
 ## Problem Statement
-Make a Chrome extention that autofills the Captchas found on the IRCTC website
+Make a Chrome extention that autofills the Captchas found on the IRCTC website.
 
 ## Method
 Using CV and tensorflow to create an algorithm that can recognise the nlpCaptcha image and output the text, 
@@ -38,7 +38,7 @@ I made a classic Multi-layer Perceptron neural network and traind using the kera
 
 ## Converting the model to JavaSrcipt and building the app
 
-Now that the model has been saved, I converted it into JavaScript using tensorflow-converter. After that I built an app that can take the image and sparate them into letters using OpenCV.js and then predicting the results through the Model and print out the text in the console and an HTML element [index.html](readme-assets/app1.jpg)
+Now that the model has been saved, I converted it into JavaScript using tensorflow-converter. After that I built an app that can take the image and sparate them into letters using OpenCV.js and then predicting the results through the Model and print out the text in the console and an HTML element [script.js](app/script.js)
 
 ### *App*
 ![prediction1](readme-assets/app1.jpg) 
