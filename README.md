@@ -7,6 +7,8 @@ Make a Chrome extention that autofills the Captchas found on the IRCTC website.
 Using CV and tensorflow to create an algorithm that can recognise the nlpCaptcha image and output the text, 
 later converting it into an app using tensorflowjs and opencv so the it can be easily implemented into various web apps (e.g. chrome extension api .etc)
 
+Data-Processing -> Building and Training Model -> Converting into js -> Building an app -> Converting it into a Chrome Extension
+
 ## Approach
 The IRCTC website has its captcha service outsourced to Simpli5d Technologies' nlpCaptcha.
 Thw way that the captcha woks that it initally shows a variety of differnt types of Captcha like text fill, image clicking ,etc.
