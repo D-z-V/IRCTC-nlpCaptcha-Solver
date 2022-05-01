@@ -31,7 +31,7 @@ Since each captcha had 4 letters/digits in them I used opencv to separate each l
 
 ### *Data-Set used*
 ![CAPTCHA DATA](readme-assets/5.jpg)
-![MINST DATA](readme-assets/51.jpg)
+![MINST DATA](readme-assets/55.jpg)
 
 ## Building and Training the Model
 I made a classic Multi-layer Perceptron neural network and traind using the keras.tensorflow library it with the data the accuracy on this was suprisingly great.
