@@ -9,6 +9,15 @@ later converting it into an app using tensorflowjs and opencv so the it can be e
 
 Finding/Creating Dataset -> Data-Processing -> Building and Training Model -> Converting into js -> Building an app -> Converting it into a Chrome Extension.
 
+## Tech Stack
+* Python
+* OpenCV
+* Keras
+* Tensorflow
+* JavaScript
+* HTML
+* CSS
+
 ## Approach
 The IRCTC website has its captcha service outsourced to Simpli5d Technologies' nlpCaptcha.
 Thw way that the captcha woks that it initally shows a variety of differnt types of Captcha like text fill, image clicking ,etc.
