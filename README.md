@@ -52,7 +52,7 @@ The Chrome extention worked pretty well initally as I was testing out the auto-c
 
 ## Issues
 
-I stared to run across this issue when I try to retrive the image from the <img> tag, Up until now I had been saving the captcha image locally for testing it in the app and while testing my model. But, when I tried to make a request to GET the image from the Captcha's Server. It throws the following Error.
+I stared to run across this issue when I try to retrive the image from the <img> tag, Up until now I had been saving the captcha image locally for testing it in the app and while testing my model. But, when I tried to make a request to GET the image from the Captcha's Server. It throws the following error:
 
 ![prediction1](readme-assets/err.jpg)
 
