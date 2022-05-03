@@ -1,13 +1,13 @@
 # IRCTC-nlpCaptcha-Solver
 
-## Problem Statement
-Make a Chrome extention that autofills the Captchas found on the IRCTC website.
+## How to make it work : 
+
 
 ## Method
 Using CV and tensorflow to create an algorithm that can recognise the nlpCaptcha image and output the text, 
-later converting it into an app using tensorflowjs and opencv so the it can be easily implemented into various web apps (e.g. chrome extension api .etc).
+later converting it into an app using tensorflow.js and opencv.js so the it can be easily implemented into various web apps (e.g. Chrome Extension api .etc).
 
-Finding/Creating Dataset -> Data-Processing -> Building and Training Model -> Converting into js -> Building an app -> Converting it into a Chrome Extension.
+Finding/Creating Dataset -> Data-Processing -> Building and Training the Model -> Converting it into js -> Building an app -> Converting it into a Chrome Extension.
 
 ## Tech Stack
 * Python
@@ -25,13 +25,13 @@ Thw way that the captcha woks that it initally shows a variety of differnt types
 ### *Inital Captacha*
 ![inital_captcha](readme-assets/cap1.jpg)
 
-But once refreshed it subequntly follows the same captcha pattern of text filling for every refresh.
+But once refreshed it subsequently follows the same captcha pattern of text filling on every refresh/reload.
 
 ### *Captacha pattern on reload*
 ![cap2](readme-assets/cap5.jpg) 
 ![cap2](readme-assets/cap4.jpg) 
 
-So this could easily be tackled by mkaing the script.js and adding a click event to the button so that the captacha automatically gets refreshed once it loads. 
+So this could easily be tackled by adding a click event to the button so that the captacha automatically gets refreshed once it loads. 
 
 ## Collecting Data to train the model
 Initally I attemped to use the MINST 0-9 digits and A-Z handwritten lettes data-set in order to train the model but that accuracy of those ended up being less than 70%.
@@ -43,9 +43,9 @@ Since each captcha had 4 letters/digits in them I used opencv to separate each l
 ![MINST DATA](readme-assets/55.jpg)
 
 ## Building and Training the Model
-I made a classic Multi-layer Perceptron neural network and traind using the keras.tensorflow library it with the data the accuracy on this was suprisingly great.
+Built a simple Multi-layer Perceptron neural network and traind it using the keras.tensorflow library it with the data the accuracy on this was suprisingly great.
 
-### *Accuracy : 96%*
+### *Accuracy : 97%*
 ![tensorboard1](readme-assets/accuracy.jpg)
 
 ### *Loss : 0.05*
@@ -73,8 +73,17 @@ I stared to run across this issue when I try to retrive the image from the <img>
 
 After doing a some searching I found out the the server that my app had been requesting the image had CORS (Cross-origin-resource-sharing) resticted so It was not allowing my app to fetch the image from the source. I tried mutliple ways of solving this but sill haven't found a work-around for this issue. [MDN - Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
 
+## Work-around
+
+So, the only way I could solve this issue is that instead of requesting for the image again I just download the one that has already been requested bu the IRCTC server for the captcha. So when a captcha appreas on the screen a download of the image is inititated automatically and then the chrome api (the premission to chmore to acess local files need to be provided manually for this to work.) reads the image locally and then uses it to predict the text.
+
+Obviously this leads to a really bad UX, but as of now this is the only solution to this issue that I could find.
+
 ## Conclusion
 
-Given 90% of the work being done I still look-forward to find a work-around for this issue.
+The extension does its job as intended the only pitfall to this is that the user needs to manullay give chrome access to read its files.
 
-Although not being able to reach the final intended goal I still had fun working on this project.
+## Possible Improvements 
+
+*Finding another way to store the image instead of storing it in the users local files (maybe chrome.storage).
+*For now the extention only fills the captcha once and the model's accuracy being 97% it come times predicts a letter in the captcha wrong (can be fixed by improving the model's test accuracy).
