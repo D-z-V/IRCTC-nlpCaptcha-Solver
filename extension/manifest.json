@@ -21,7 +21,7 @@
         "scripts" : ["background.js", "axios.min.js"],
         "persistent": true
     },
-    "web_accessible_resources": ["model.json", "group1-shard1of1.bin", "banner.jpg"],
+    "web_accessible_resources": ["model.json", "group1-shard1of1.bin"],
     "icons" : {
         "16" : "logo.png",
         "48" : "logo.png",
