@@ -1,6 +1,8 @@
 # IRCTC-nlpCaptcha-Solver
 
 ## Installing the Extention
+### *Demo Video*
+![demo](readme-assets/demo-vid.mp4)
 
 ## Method
 Using CV and tensorflow to create an algorithm that can recognise the nlpCaptcha image and output the text, 
