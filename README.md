@@ -3,6 +3,7 @@
 ## Installing the Extension
 ### *Demo Video*
 [Google Drive](https://drive.google.com/file/d/1S9zzamvuZC7ppujlaSXRSS6LkP5vnLx3/view?usp=sharing)
+[extension.zip](https://drive.google.com/file/d/1OMjxvAXt6p9v7_eKz5GkVlG1PtfOkzuw/view?usp=sharing)
 
 ## Method
 Using CV and tensorflow to create an algorithm that can recognise the nlpCaptcha image and output the text, 
