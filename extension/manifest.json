@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "IRCTC CAPTCHA Solver",
+    "version": "1.0.0",
+    "description": "Solve CAPTCHA on IRCTC",
+    "permissions" : [
+        "http://www.irctc.co.in/*",
+        "https://www.irctc.co.in/*",
+        "downloads",
+        "storage",
+        "background",
+        "webRequest",
+        "webRequestBlocking",
+        "tabs",
+        "file://*"
+    ],
+    "content_scripts" : [
+        {
+            "matches" : ["https://www.irctc.co.in/*", "https://*.irctc.co.in/*", "https://irctclive.nlpcaptcha.in/*"],
+            "js" : ["content.js", "opencv.js", "tf.min.js"]
+        }
+    ],
+    "background" : {
+        "scripts" : ["background.js", "axios.min.js"],
+        "persistent": true
+    },
+    "web_accessible_resources": ["model.json", "group1-shard1of1.bin", "banner.jpg"],
+    "icons" : {
+        "16" : "logo.png",
+        "48" : "logo.png",
+        "128" : "logo.png"
+    }
+}
+
