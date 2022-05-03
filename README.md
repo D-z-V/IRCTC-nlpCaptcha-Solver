@@ -63,7 +63,7 @@ Now that the model has been saved, I converted it into JavaScript using tensorfl
 
 ## The Chrome extension
 
-### *Chrome extention*
+
 ![extension](readme-assets/extension.jpg)
 
 
