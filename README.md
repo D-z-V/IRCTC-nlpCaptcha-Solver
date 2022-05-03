@@ -1,8 +1,8 @@
 # IRCTC-nlpCaptcha-Solver
 
 ## Installing the Extension
-### *Demo Video*
-[How to install](https://drive.google.com/file/d/1S9zzamvuZC7ppujlaSXRSS6LkP5vnLx3/view?usp=sharing)
+
+[Demo video](https://drive.google.com/file/d/1S9zzamvuZC7ppujlaSXRSS6LkP5vnLx3/view?usp=sharing)
 
 [extension.zip](https://drive.google.com/file/d/1OMjxvAXt6p9v7_eKz5GkVlG1PtfOkzuw/view?usp=sharing)
 
