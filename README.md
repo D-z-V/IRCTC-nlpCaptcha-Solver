@@ -70,7 +70,7 @@ Now that the model has been saved, I converted it into JavaScript using tensorfl
 
 ## Conclusion
 
-The extention works as intended within 1-1.5 seconds the captcha autofills with the text.
+The extention works as intended within 1 - 1.5 seconds the captcha autofills with the text.
 
 ## Possible Improvements 
 
