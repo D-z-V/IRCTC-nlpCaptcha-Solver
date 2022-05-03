@@ -85,5 +85,5 @@ The extension does its job as intended the only pitfall to this is that the user
 
 ## Possible Improvements 
 
-*Finding another way to store the image instead of storing it in the users local files (maybe chrome.storage).
-*For now the extention only fills the captcha once and the model's accuracy being 97% it come times predicts a letter in the captcha wrong (can be fixed by improving the model's test accuracy).
+* Finding another way to store the image instead of storing it in the users local files (maybe chrome.storage).
+* For now the extention only fills the captcha once and the model's accuracy being 97% it come times predicts a letter in the captcha wrong (can be fixed by improving the model's test accuracy).
