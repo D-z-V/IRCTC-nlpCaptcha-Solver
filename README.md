@@ -1,7 +1,5 @@
 # IRCTC-nlpCaptcha-Solver
 
-## How to make it work : 
-
 
 ## Method
 Using CV and tensorflow to create an algorithm that can recognise the nlpCaptcha image and output the text, 
