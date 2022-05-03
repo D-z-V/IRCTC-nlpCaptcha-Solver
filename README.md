@@ -2,7 +2,7 @@
 
 ## Installing the Extention
 ### *Demo Video*
-![demo](readme-assets/demo-vid.mp4)
+![demo](https://github.com/D-z-V/IRCTC-nlpCaptcha-Solver/blob/main/readme-assets/demo-vid.mp4)
 
 ## Method
 Using CV and tensorflow to create an algorithm that can recognise the nlpCaptcha image and output the text, 
