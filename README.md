@@ -2,7 +2,7 @@
 
 ## Installing the Extention
 ### *Demo Video*
-![demo](https://drive.google.com/file/d/1roCJqIeV4czI7lqgsNmeENoEJCZB4RID/view?usp=sharing)
+![demo](https://drive.google.com/file/d/1roCJqIeV4czI7lqgsNmeENoEJCZB4RID/view)
 
 ## Method
 Using CV and tensorflow to create an algorithm that can recognise the nlpCaptcha image and output the text, 
