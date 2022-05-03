@@ -72,4 +72,4 @@ The extention works as intended within 1-1.5 seconds the captcha autofills with 
 
 ## Possible Improvements 
 
-* For now the extention only fills the captcha once and the model's accuracy being 97% it come times predicts a letter in the captcha wrong (can be fixed by improving the model's test accuracy).
+* For now the extention only fills the captcha once and the model's accuracy being 97% it sometimes predicts a letter in the captcha wrong (can be fixed by improving the model's test accuracy).
