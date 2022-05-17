@@ -74,3 +74,6 @@ The extension works as intended within 1 - 1.5 seconds the captcha autofills wit
 ## Possible Improvements 
 
 * For now the extension only fills the captcha once and the page need to be reloaded to fill it again. Also model's accuracy being 97% it sometimes predicts a letter in the captcha wrong (can be fixed by improving the model's test accuracy).
+
+### Motivation Guru
+[Amar Singh](https://github.com/AMAR2303)
