@@ -18,7 +18,6 @@ Finding/Creating Dataset -> Data-Processing -> Building and Training the Model -
 * Keras
 * Tensorflow
 * JavaScript
-* HTML
 
 ## Approach
 The IRCTC website has its captcha service outsourced to [Simpli5d Technologies](https://nlpcaptcha.in/en/index.html) nlpCaptcha.
